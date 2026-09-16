@@ -22,5 +22,5 @@ SeafoamIslandsB4FWildMons:
 	db 40, TENTACOOL
 	db 30, STARYU
 	db 30, STARYU
-	db 30, STARYU
+	db 35, LAPRAS
 	end_water_wildmons
