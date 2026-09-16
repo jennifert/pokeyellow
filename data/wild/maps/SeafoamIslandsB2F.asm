@@ -9,7 +9,7 @@ SeafoamIslandsB2FWildMons:
 	db 29, KRABBY
 	db 36, GOLBAT
 	db 31, SLOWPOKE
-	db 31, SLOWBRO
+	db 37, JYNX
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

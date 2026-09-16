@@ -5,10 +5,10 @@ PokemonMansionB1FWildMons:
 	db 37, RATICATE
 	db 40, RATICATE
 	db 41, MUK
-	db 43, RATICATE
+	db 43, KOFFING
 	db 24, DITTO
-	db 46, RATICATE
-	db 18, DITTO
+	db 46, WEEZING
+	db 38, MAGMAR
 	db 12, DITTO
 	end_grass_wildmons
 

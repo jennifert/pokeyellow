@@ -1,8 +1,8 @@
 Route8WildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 20, PIDGEY
-	db 22, PIDGEY
-	db 20, RATTATA
+	db 22, EKANS
+	db 20, MEOWTH
 	db 15, ABRA
 	db 19, ABRA
 	db 24, PIDGEOTTO

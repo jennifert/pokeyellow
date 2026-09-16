@@ -22,7 +22,7 @@ PowerPlant_TextPointers:
 	dw_const PowerPlantVoltorb4Text,   TEXT_POWERPLANT_VOLTORB4
 	dw_const PowerPlantVoltorb5Text,   TEXT_POWERPLANT_VOLTORB5
 	dw_const PowerPlantElectrode2Text, TEXT_POWERPLANT_ELECTRODE2
-	dw_const PowerPlantRaichuText,     TEXT_POWERPLANT_RAICHU
+	dw_const PowerPlantVoltorb6Text,   TEXT_POWERPLANT_VOLTORB6
 	dw_const PowerPlantZapdosText,     TEXT_POWERPLANT_ZAPDOS
 	dw_const PickUpItemText,           TEXT_POWERPLANT_CARBOS
 	dw_const PickUpItemText,           TEXT_POWERPLANT_HP_UP
@@ -93,7 +93,7 @@ PowerPlantElectrode2Text:
 	ld hl, Voltorb6TrainerHeader
 	jr PowerPlantInitBattleScript
 
-PowerPlantRaichuText:
+PowerPlantVoltorb6Text:
 	text_asm
 	ld hl, Voltorb7TrainerHeader
 	jr PowerPlantInitBattleScript

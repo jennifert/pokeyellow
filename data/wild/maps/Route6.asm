@@ -3,7 +3,7 @@ Route6WildMons:
 	db 15, PIDGEY
 	db 14, RATTATA
 	db  7, ABRA
-	db 16, PIDGEY
+	db 16, MEOWTH
 	db 16, RATTATA
 	db 17, PIDGEY
 	db 17, PIDGEOTTO
