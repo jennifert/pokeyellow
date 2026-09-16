@@ -2514,10 +2514,7 @@ ItemUseTMHM:
 	pop af
 	ld [wWhichPokemon], a
 
-	ld a, [wCurItem]
-	call IsItemHM
-	ret c
-	jp RemoveUsedItem
+	ret
 
 BootedUpTMText:
 	text_far _BootedUpTMText
