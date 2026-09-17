@@ -12,7 +12,7 @@ Moves:
 ; Characteristics of each move.
 	table_width MOVE_LENGTH
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, NORMAL,       100, 25
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,       100, 25
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        85, 10
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,        85, 15
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        85, 20
@@ -27,12 +27,12 @@ Moves:
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        50, NORMAL,        95, 30
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        35, FLYING,       100, 35
+	move WING_ATTACK,  NO_ADDITIONAL_EFFECT,        60, FLYING,       100, 35
 	move WHIRLWIND,    SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,        85, 20
 	move FLY,          FLY_EFFECT,                  70, FLYING,        95, 15
 	move BIND,         TRAPPING_EFFECT,             15, NORMAL,        75, 20
 	move SLAM,         NO_ADDITIONAL_EFFECT,        80, NORMAL,        75, 20
-	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        35, GRASS,        100, 10
+	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        45, GRASS,        100, 25
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 30
 	move MEGA_KICK,    NO_ADDITIONAL_EFFECT,       120, NORMAL,        75,  5
@@ -43,7 +43,7 @@ Moves:
 	move HORN_ATTACK,  NO_ADDITIONAL_EFFECT,        65, NORMAL,       100, 25
 	move FURY_ATTACK,  TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        85, 20
 	move HORN_DRILL,   OHKO_EFFECT,                  1, NORMAL,        30,  5
-	move TACKLE,       NO_ADDITIONAL_EFFECT,        35, NORMAL,        95, 35
+	move TACKLE,       NO_ADDITIONAL_EFFECT,        40, NORMAL,        100, 35
 	move BODY_SLAM,    PARALYZE_SIDE_EFFECT2,       85, NORMAL,       100, 15
 	move WRAP,         TRAPPING_EFFECT,             15, NORMAL,        85, 20
 	move TAKE_DOWN,    RECOIL_EFFECT,               90, NORMAL,        85, 20
@@ -63,13 +63,13 @@ Moves:
 	move DISABLE,      DISABLE_EFFECT,               0, NORMAL,        55, 20
 	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    40, POISON,       100, 30
 	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,         100, 25
-	move FLAMETHROWER, BURN_SIDE_EFFECT1,           95, FIRE,         100, 15
+	move FLAMETHROWER, BURN_SIDE_EFFECT1,           90, FIRE,         100, 15
 	move MIST,         MIST_EFFECT,                  0, ICE,          100, 30
 	move WATER_GUN,    NO_ADDITIONAL_EFFECT,        40, WATER,        100, 25
-	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,         80,  5
-	move SURF,         NO_ADDITIONAL_EFFECT,        95, WATER,        100, 15
-	move ICE_BEAM,     FREEZE_SIDE_EFFECT1,         95, ICE,          100, 10
-	move BLIZZARD,     FREEZE_SIDE_EFFECT1,        120, ICE,           90,  5
+	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       110, WATER,         80,  5
+	move SURF,         NO_ADDITIONAL_EFFECT,        90, WATER,        100, 15
+	move ICE_BEAM,     FREEZE_SIDE_EFFECT1,         90, ICE,          100, 10
+	move BLIZZARD,     FREEZE_SIDE_EFFECT1,        110, ICE,           90,  5
 	move PSYBEAM,      CONFUSION_SIDE_EFFECT,       65, PSYCHIC_TYPE, 100, 20
 	move BUBBLEBEAM,   SPEED_DOWN_SIDE_EFFECT,      65, WATER,        100, 20
 	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ICE,          100, 20
@@ -95,10 +95,10 @@ Moves:
 	move DRAGON_RAGE,  SPECIAL_DAMAGE_EFFECT,        1, DRAGON,       100, 10
 	move FIRE_SPIN,    TRAPPING_EFFECT,             15, FIRE,          70, 15
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC,     100, 30
-	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15
+	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       90, ELECTRIC,     100, 15
 	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,     100, 20
-	move THUNDER,      PARALYZE_SIDE_EFFECT1,      120, ELECTRIC,      70, 10
-	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,          65, 15
+	move THUNDER,      PARALYZE_SIDE_EFFECT1,      110, ELECTRIC,      70, 10
+	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,          90, 15
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
 	move FISSURE,      OHKO_EFFECT,                  1, GROUND,        30,  5
 	move DIG,          CHARGE_EFFECT,              100, GROUND,       100, 10
@@ -132,11 +132,11 @@ Moves:
 	move MIRROR_MOVE,  MIRROR_MOVE_EFFECT,           0, FLYING,       100, 20
 	move SELFDESTRUCT, EXPLODE_EFFECT,             130, NORMAL,       100,  5
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, NORMAL,        75, 10
-	move LICK,         PARALYZE_SIDE_EFFECT2,       20, GHOST,        100, 30
+	move LICK,         PARALYZE_SIDE_EFFECT2,       30, GHOST,        100, 30
 	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,        70, 20
 	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
 	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,        85, 20
-	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
+	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          110, FIRE,          85,  5
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         75, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,       100, 20
@@ -151,7 +151,7 @@ Moves:
 	move DREAM_EATER,  DREAM_EATER_EFFECT,         100, PSYCHIC_TYPE, 100, 15
 	move POISON_GAS,   POISON_EFFECT,                0, POISON,        55, 40
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,        85, 20
-	move LEECH_LIFE,   DRAIN_HP_EFFECT,             20, BUG,          100, 15
+	move LEECH_LIFE,   DRAIN_HP_EFFECT,             80, BUG,          100, 10
 	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,        75, 10
 	move SKY_ATTACK,   CHARGE_EFFECT,              140, FLYING,        90,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 10
