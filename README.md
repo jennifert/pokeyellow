@@ -115,6 +115,8 @@ or other behaviour changed.
 #### Added / Repurposed Moves
 
 Moves added to Soul Yellow or existing move slots repurposed as different moves.
+Where practical, new moves will reuse existing Gen I animations, effects, and
+battle mechanics to keep their implementation compatible with the original engine.
 
 | Move | Planned Implementation | Reason |
 |---|---|---|
