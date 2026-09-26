@@ -99,11 +99,14 @@ Planned changes:
 
 #### Existing Move Changes
 
+Moves that remain in Soul Yellow but have their power, accuracy, effects,
+or other behaviour changed.
+
 | Move | Planned Change | Reason |
 |---|---|---|
 | Gust | Power increased to 60 | Give early Flying Pokémon a better STAB option |
 | Leech Life | Power increased to 75 | Bring it closer to its modern version |
-| Wing Attack | ... | ... |
+| Wing Attack | TBD | TBD |
 | Roar | TBD | Repurpose or update its Gen I battle behaviour |
 | Teleport | TBD | Update battle behaviour and use as a pivot-style move |
 | Whirlwind | TBD | Repurpose or update its Gen I battle behaviour |
@@ -111,26 +114,49 @@ Planned changes:
 
 #### Added / Repurposed Moves
 
+Moves added to Soul Yellow or existing move slots repurposed as different moves.
+
 | Move | Planned Implementation | Reason |
 |---|---|---|
+| Bite | TBD | Repurpose as part of the expanded move/type system |
 | Disarming Voice | Replaces Psywave | Adds a Fairy-type move using an existing move slot |
 | Scale Shot | Uses Wrap-style 2–5 hit behaviour | Adds a Dragon-type multi-hit move using existing Gen I mechanics |
 | Drain Punch | Replaces Counter TM | Adds a useful Fighting-type draining move |
 | Water Pulse | Replaces Bubble | Adds a more useful Water-type move |
 | Shadow Ball | TBD | Add a stronger Ghost-type attack and update appropriate learnsets |
-| Magnet Rise | TBD | Potential later-generation utility move |
-| Dragon Rage | TBD | Repurpose or update the fixed-damage move |
+| Dragon Breathe | Replaces dragon rage | Adds a more useful Water-type move |
+| Metal Claw | Replaces sonic boom | Review fixed-damage moves |
 
-##### Dark, Steel, and Fairy Moves
+#### Removed / Replaced Moves
+
+Moves that may be removed entirely or have their move slots reused.
+
+| Move | Planned Change | Reason |
+|---|---|---|
+| Constrict | TBD | Candidate for replacement or repurposing |
+| Explosion | TBD | Review self-KO moves |
+| Selfdestruct | TBD | Review self-KO moves |
+| Fissure | TBD | Review one-hit KO moves |
+| Horn Drill | TBD | Review one-hit KO moves |
+| Guillotine | TBD | Review one-hit KO moves |
+
+#### Moves Under Consideration
+
+These moves may be added or repurposed later, but are not currently planned
+for implementation.
+
+| Move | Notes |
+|---|---|
+| Dual Wingbeat | Could use existing two-hit move mechanics; thematic fit for Flying Pokémon |
+| Magnet Rise | Potential utility move; implementation and usefulness still need to be evaluated |
+
+## Dark, Steel, and Fairy Addition
 
 Adding Dark, Steel, and Fairy types will also require existing moves to be
 reviewed and, where appropriate, retyped or repurposed.
 
 Planned work includes:
 
-- Add appropriate Dark-type moves
-- Add appropriate Steel-type moves
-- Add appropriate Fairy-type moves
 - Retype existing moves where their later-generation typing fits Soul Yellow
 - Repurpose suitable existing move slots for later-generation moves
 - Update Pokémon learnsets and TM compatibility for the new types
@@ -150,6 +176,7 @@ Planned substitutions include:
 - Teleport for selected Pokémon that can learn U-turn, Volt Switch, or Flip Turn
 - Mist or Haze for selected Pokémon that can learn Crafty Shield
 - Confuse Ray for Weezing as a thematic reference to Strange Steam
+- Recover for selected Pokémon that learn comparable recovery moves such as Synthesis
 
 ### Celadon Shop
 
