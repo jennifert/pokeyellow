@@ -22,7 +22,6 @@ Pokémon Soul Yellow is a personal enhancement project based on pret/pokeyellow.
 ### Experience
 
 - Pokémon gain EXP when caught
-- Exp. All can be toggled
 
 ### TMs and HMs
 
@@ -49,10 +48,6 @@ on the Soul Yellow companion site.
 
 Detailed wild Pokémon encounter tables will be documented on the
 Soul Yellow companion site.
-
-### Static Encounters
-
-- Power Plant Voltorb encounter replaced with Raichu
 
 ## Design Notes
 
@@ -151,7 +146,7 @@ for implementation.
 | Dual Wingbeat | Could use existing two-hit move mechanics; thematic fit for Flying Pokémon |
 | Magnet Rise | Potential utility move; implementation and usefulness still need to be evaluated |
 
-## Dark, Steel, and Fairy Addition
+### Dark, Steel, and Fairy Addition
 
 Adding Dark, Steel, and Fairy types will also require existing moves to be
 reviewed and, where appropriate, retyped or repurposed.
@@ -162,14 +157,27 @@ Planned work includes:
 - Repurpose suitable existing move slots for later-generation moves
 - Update Pokémon learnsets and TM compatibility for the new types
 
-### Move Relearner
+### Pokémon Center Second Floor
 
-Repurpose a second-floor Pokémon Center NPC as the Move Relearner.
+Repurpose the second floor of Pokémon Centers from its original multiplayer
+functions into useful move-related services.
 
-In addition to standard level-up moves, the Move Relearner can provide selected
-later-generation or thematic moves when an equivalent can be represented using
-existing Gen I mechanics. These substitutions preserve the role or flavour of
-later-generation moves without requiring every modern move to be implemented.
+Planned services:
+
+- Move Relearner
+- Move Tutor
+- Additional move-related service or second Move Tutor
+
+HM moves can already be deleted normally, so a dedicated Move Deleter is not
+required.
+
+#### Move Relearner
+
+The Move Relearner will allow Pokémon to relearn standard level-up moves.
+
+In addition, the Move Relearner can provide selected later-generation or
+thematic moves when an equivalent can be represented using existing Gen I
+mechanics.
 
 Planned substitutions include:
 
@@ -225,7 +233,8 @@ Potential items include:
 
 - Running Shoes
 - Escape Rope key item
-- Free Move Relearner at the Pokémon League
+- Exp. All becomes a Key Item that can be toggled on or off
+- Repurpose Exp. Share as a different item
 
 #### Pokémon Center and PC Access
 
@@ -258,6 +267,14 @@ may provide an intentional alternative through normal gameplay.
 - Ensure the Pokémon previously obtainable through useful encounter glitches remain obtainable through normal gameplay
 - Where appropriate, make those Pokémon easier to obtain intentionally
 
+#### Trainer Tips and Game Scripts
+
+- Review all Trainer Tips signs for mechanics that have changed in Soul Yellow
+- Review NPC dialogue and tutorial scripts that explain game mechanics
+- Update references to changed systems such as TMs, HMs, Exp. All, type interactions, and the Safari Zone
+- Preserve original dialogue where it remains accurate
+- Add or repurpose tutorial text where useful for new mechanics
+
 ### Future Partner Pikachu Mechanics
 
 Expand interactions with the partner Pikachu while preserving the style of
@@ -267,7 +284,10 @@ Planned changes:
 
 - Add additional locations where the player can talk to Pikachu
 - Add additional Pikachu expressions and reactions
-- Add location- or event-specific reactions where appropriate
+- Add an angry Pikachu reaction near the old man outside Erika's Gym
+- Add a special Pikachu reaction at home after defeating the Elite Four
+- Add a Pikachu/Pokédex joke around Lance's unusually evolved Dragon Pokémon, if appropriate
+- Add other location- or event-specific reactions where appropriate
 - Reuse existing Pikachu animations and expressions where possible
 - Update the title screen so Pikachu effectively insists on the name "Soul Yellow":
   after Pikachu appears, an arrow/annotation points toward a handwritten-style
@@ -320,3 +340,12 @@ Planned changes:
 - Restore permanent access to the S.S. Anne dock after the ship leaves
 - Update the dock/truck area as needed so it can be reached normally using Surf
 - Use Surf as the progression requirement for reaching Mew
+- Add a surprised Pikachu reaction near the truck before obtaining Mew.
+
+#### Special Magikarp Variant
+
+- Consider making the Magikarp sold by the Route 4 salesman a unique variant
+- The special Magikarp would evolve into a Water/Dark Gyarados variant
+- All normally obtained Magikarp would continue to evolve into standard Gyarados
+- Provides a Gen I Pokémon with Dark-type STAB without adding later-generation Pokémon to the roster
+- Add a smug Pikachu reaction after purchasing the special Magikarp.
