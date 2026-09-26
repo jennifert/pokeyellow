@@ -18,7 +18,6 @@ Pokémon Soul Yellow is a personal enhancement project based on pret/pokeyellow.
 
 - Uses updated type interactions where applicable
 - Psychic/Ghost interaction corrected
-- Dark, Steel, and Fairy are not currently implemented
 
 ### Experience
 
@@ -105,6 +104,20 @@ provide an intentional alternative through normal gameplay.
 Shop item changes will be mentioned here when implemented.
 
 ## Planned / Under Consideration
+
+### Types
+
+Dark, Steel, and Fairy will be added to Soul Yellow, bringing later-generation
+types into the Gen I battle system.
+
+Planned changes:
+
+- Implement Dark type
+- Implement Steel type
+- Implement Fairy type
+- Update the type chart for the added types
+- Update affected Pokémon typings where appropriate
+- Update move typings where appropriate
 
 ### Move Changes
 
