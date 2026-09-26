@@ -118,9 +118,31 @@ Planned changes:
 
 | Move | Planned Implementation | Reason |
 |---|---|---|
-| Disarming Voice | Replaces Psywave | Provides a useful later-generation move |
-| Scale Shot | Uses Wrap-style multi-hit behaviour | Fits Gen I's existing 2–5 hit mechanics |
-| Magnet Rise | TBD | TBD |
+| Disarming Voice | Replaces Psywave | Adds a Fairy-type move using an existing move slot |
+| Scale Shot | Uses Wrap-style 2–5 hit behaviour | Adds a Dragon-type multi-hit move using existing Gen I mechanics |
+| Drain Punch | Replaces Counter TM | Adds a useful Fighting-type draining move |
+| Water Pulse | Replaces Bubble | Adds a more useful Water-type move |
+| Shadow Ball | TBD | Add a stronger Ghost-type attack and update appropriate learnsets |
+| Magnet Rise | TBD | Potential later-generation utility move |
+| Hyper Beam | TBD | Update behaviour to better match later-generation mechanics |
+| Dragon Rage | TBD | Repurpose or update the fixed-damage move |
+| Roar | TBD | Repurpose or update its Gen I battle behaviour |
+| Teleport | TBD | Update battle behaviour and use as a pivot-style move |
+| Whirlwind | TBD | Repurpose or update its Gen I battle behaviour |
+
+##### Dark, Steel, and Fairy Moves
+
+Adding Dark, Steel, and Fairy types will also require existing moves to be
+reviewed and, where appropriate, retyped or repurposed.
+
+Planned work includes:
+
+- Add appropriate Dark-type moves
+- Add appropriate Steel-type moves
+- Add appropriate Fairy-type moves
+- Retype existing moves where their later-generation typing fits Soul Yellow
+- Repurpose suitable existing move slots for later-generation moves
+- Update Pokémon learnsets and TM compatibility for the new types
 
 ### Move Relearner
 
@@ -136,6 +158,7 @@ Planned substitutions include:
 - Sludge for Pokémon compatible with Sludge Bomb
 - Teleport for selected Pokémon that can learn U-turn, Volt Switch, or Flip Turn
 - Mist or Haze for selected Pokémon that can learn Crafty Shield
+- Confuse Ray for Weezing as a thematic reference to Strange Steam
 
 ### Celadon Shop
 
