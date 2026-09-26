@@ -36,7 +36,7 @@ Pokémon Soul Yellow is a personal enhancement project based on pret/pokeyellow.
 ### Partner Pikachu
 
 - Cannot evolve
-- Can learn Surf
+- Surf is added to Partner Pikachu's learnset, allowing access to the Surfing Pikachu minigame without Pokémon Stadium
 - Increased stats
 - Changes apply only to the partner Pikachu
 
@@ -79,7 +79,7 @@ Shop item changes will be mentioned here when implemented.
 
 ### Future Battle Mechanics
 
-- Additional battle mechanics will be reviewed and modernized where appropriate.
+- Additional game mechanics will be reviewed and modernized where appropriate
 
 ### Types
 
@@ -111,6 +111,7 @@ or other behaviour changed.
 | Teleport | TBD | Update battle behaviour and use as a pivot-style move |
 | Whirlwind | TBD | Repurpose or update its Gen I battle behaviour |
 | Hyper Beam | TBD | Update behaviour to better match later-generation mechanics |
+| Bite | Type change | Modernize to Dark type |
 
 #### Added / Repurposed Moves
 
@@ -120,7 +121,6 @@ battle mechanics to keep their implementation compatible with the original engin
 
 | Move | Planned Implementation | Reason |
 |---|---|---|
-| Bite | Type change | Modernize to Dark type |
 | Disarming Voice | Replaces Psywave | Adds a Fairy-type move using an existing move slot |
 | Scale Shot | Uses Wrap-style 2–5 hit behaviour | Adds a Dragon-type multi-hit move using existing Gen I mechanics |
 | Drain Punch | Replaces Counter TM | Adds a useful Fighting-type draining move |
@@ -195,7 +195,23 @@ Potential items:
 - Elixir / Max Elixir
 - PP Up
 
+### Future Shop Items
+
+Additional useful items may be added to appropriate shops as new systems
+are implemented.
+
+Potential items include:
+
+- EXP Candies
+- Other new or repurposed miscellaneous items
+- Useful consumables that would otherwise be unnecessarily limited
+
 ### Trainer and Boss Changes
+
+- Review late-game trainer teams and expand teams that are unusually small
+- Give appropriate late-game trainers more complete teams instead of relying on only 2–3 Pokémon
+- Preserve trainer themes and progression when adding Pokémon
+- Add stronger post-game rematches for major trainers
 
 #### Rival
 
@@ -228,7 +244,79 @@ may provide an intentional alternative through normal gameplay.
 - Additional battle mechanics will be reviewed and modernized where appropriate.
 - Review the maximum number of Game Corner coins that can be purchased at once
 - Consider allowing Game Corner prize/shop interactions to award or exchange coins or money where appropriate
+- Limit TMs to one obtainable copy each, since TMs are reusable
+- Modernize status damage so burn and poison only cause HP loss during battle
+- Remove overworld poison damage and overworld fainting from poison
 
 #### Overworld
 
 - Overworld bugs and unintended behaviour will be reviewed and fixed where appropriate.
+
+##### Cinnabar Encounter Behaviour
+
+- Remove unintended/glitch behaviour, including invalid Pokémon encounters
+- Ensure the Pokémon previously obtainable through useful encounter glitches remain obtainable through normal gameplay
+- Where appropriate, make those Pokémon easier to obtain intentionally
+
+### Future Partner Pikachu Mechanics
+
+Expand interactions with the partner Pikachu while preserving the style of
+the original Pokémon Yellow friendship system.
+
+Planned changes:
+
+- Add additional locations where the player can talk to Pikachu
+- Add additional Pikachu expressions and reactions
+- Add location- or event-specific reactions where appropriate
+- Reuse existing Pikachu animations and expressions where possible
+- Update the title screen so Pikachu effectively insists on the name "Soul Yellow":
+  after Pikachu appears, an arrow/annotation points toward a handwritten-style
+  "Soul", revealed letter-by-letter
+
+### Upcoming Pokémon Changes
+
+#### Trade Evolutions
+
+- Replace trade evolution requirements with the Link Cable item
+- Ensure all 151 Pokémon can be obtained without trading
+
+### Companion Tools
+
+- Update the Pokémon Team Builder to support Soul Yellow
+- Add a Soul Yellow game option with the appropriate Pokémon, typings, moves,
+  learnsets, and other game-specific data
+- Allow the Soul Yellow companion website to link directly to the Team Builder
+  with Soul Yellow preselected
+
+### Safari Zone
+
+- Allow normal Pokémon battles in the Safari Zone
+- Remove the bait and rock mechanics
+- Remove the fleeing mechanic entirely
+- Allow Pokémon to be weakened or affected by status normally before capture
+- Keep rare Safari Zone Pokémon rare through encounter rates rather than additional flee mechanics
+
+### New Events
+
+#### Cinnabar Island Fossil
+
+- Add a scientist NPC on Cinnabar Island
+- The scientist explains that another fossil was discovered at Mt. Moon
+- Receive the fossil that the player did not choose at Mt. Moon
+- The reward is determined by the player's original fossil choice
+- The fossil can then be revived normally at the Cinnabar Lab
+
+#### Fighting Dojo
+
+- Add a post-game event with the Fighting Dojo's master
+- After defeating the Pokémon League, speak with the master to receive the Hitmon the player did not choose previously
+- The reward is determined by whether the player originally chose Hitmonlee or Hitmonchan
+
+#### Mew
+
+- Add Mew as a Poké Ball gift encounter under the truck, similar to receiving Eevee
+- Mew is received directly rather than fought as a wild or static battle
+- Set Mew's level appropriately for the point in the game when Surf becomes available
+- Restore permanent access to the S.S. Anne dock after the ship leaves
+- Update the dock/truck area as needed so it can be reached normally using Surf
+- Use Surf as the progression requirement for reaching Mew
