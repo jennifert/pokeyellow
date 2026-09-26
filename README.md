@@ -118,14 +118,14 @@ Moves added to Soul Yellow or existing move slots repurposed as different moves.
 
 | Move | Planned Implementation | Reason |
 |---|---|---|
-| Bite | TBD | Repurpose as part of the expanded move/type system |
+| Bite | Type change | Modernize to Dark type |
 | Disarming Voice | Replaces Psywave | Adds a Fairy-type move using an existing move slot |
 | Scale Shot | Uses Wrap-style 2–5 hit behaviour | Adds a Dragon-type multi-hit move using existing Gen I mechanics |
 | Drain Punch | Replaces Counter TM | Adds a useful Fighting-type draining move |
 | Water Pulse | Replaces Bubble | Adds a more useful Water-type move |
-| Shadow Ball | TBD | Add a stronger Ghost-type attack and update appropriate learnsets |
-| Dragon Breathe | Replaces dragon rage | Adds a more useful Water-type move |
-| Metal Claw | Replaces sonic boom | Review fixed-damage moves |
+| Shadow Ball | Replaces Constrict | Adds a stronger Ghost-type attack |
+| Dragon Breath | Replaces Dragon Rage | Replaces a fixed-damage move with a more useful Dragon-type attack |
+| Metal Claw | Replaces SonicBoom | Adds a Steel-type attack while removing a fixed-damage move |
 
 #### Removed / Replaced Moves
 
@@ -133,7 +133,6 @@ Moves that may be removed entirely or have their move slots reused.
 
 | Move | Planned Change | Reason |
 |---|---|---|
-| Constrict | TBD | Candidate for replacement or repurposing |
 | Explosion | TBD | Review self-KO moves |
 | Selfdestruct | TBD | Review self-KO moves |
 | Fissure | TBD | Review one-hit KO moves |
