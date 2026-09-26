@@ -54,15 +54,6 @@ Soul Yellow companion site.
 
 - Power Plant Voltorb encounter replaced with Raichu
 
-## Quality of Life
-
-- Running Shoes
-- Pocket PC
-- Escape Rope key item
-- Nurse Joy services
-- Free Move Relearner at the Pokémon League
-...
-
 ## Design Notes
 
 Soul Yellow generally prefers:
@@ -185,6 +176,18 @@ Potential items:
 #### Elite Four
 
 - TBD
+
+### Quality of Life
+
+- Running Shoes
+- Escape Rope key item
+- Free Move Relearner at the Pokémon League
+
+#### Pokémon Center and PC Access
+
+- Restore the unused PC in the Celadon or Saffron hotel
+- Allow the PC in the player's bedroom to access Pokémon storage
+- Pocket PC
 
 ### Future Bug Fixes
 
