@@ -223,9 +223,11 @@ Soul Yellow will fix bugs and unintended behaviour from the original game.
 Where a glitch previously provided a useful quality-of-life function, Soul Yellow
 may provide an intentional alternative through normal gameplay.
 
-#### Battle (Future)
+#### Game Mechanics
 
-- Additional battle bugs will be reviewed and fixed where appropriate.
+- Additional battle mechanics will be reviewed and modernized where appropriate.
+- Review the maximum number of Game Corner coins that can be purchased at once
+- Consider allowing Game Corner prize/shop interactions to award or exchange coins or money where appropriate
 
 #### Overworld
 
