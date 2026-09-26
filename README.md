@@ -104,6 +104,10 @@ Planned changes:
 | Gust | Power increased to 60 | Give early Flying Pokémon a better STAB option |
 | Leech Life | Power increased to 75 | Bring it closer to its modern version |
 | Wing Attack | ... | ... |
+| Roar | TBD | Repurpose or update its Gen I battle behaviour |
+| Teleport | TBD | Update battle behaviour and use as a pivot-style move |
+| Whirlwind | TBD | Repurpose or update its Gen I battle behaviour |
+| Hyper Beam | TBD | Update behaviour to better match later-generation mechanics |
 
 #### Added / Repurposed Moves
 
@@ -115,11 +119,7 @@ Planned changes:
 | Water Pulse | Replaces Bubble | Adds a more useful Water-type move |
 | Shadow Ball | TBD | Add a stronger Ghost-type attack and update appropriate learnsets |
 | Magnet Rise | TBD | Potential later-generation utility move |
-| Hyper Beam | TBD | Update behaviour to better match later-generation mechanics |
 | Dragon Rage | TBD | Repurpose or update the fixed-damage move |
-| Roar | TBD | Repurpose or update its Gen I battle behaviour |
-| Teleport | TBD | Update battle behaviour and use as a pivot-style move |
-| Whirlwind | TBD | Repurpose or update its Gen I battle behaviour |
 
 ##### Dark, Steel, and Fairy Moves
 
