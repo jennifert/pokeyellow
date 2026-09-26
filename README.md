@@ -75,6 +75,12 @@ Shop item changes will be mentioned here when implemented.
 ### Future Battle Mechanics
 
 - Additional game mechanics will be reviewed and modernized where appropriate
+- Fix the Gen I sleep behaviour so a Pokémon can act on the turn it wakes up
+- Review and modernize Gen I accuracy/evasion behaviour
+  - Flatten extreme accuracy/evasion modifiers where appropriate
+  - Prevent AI trainers from excessively stacking evasion
+  - Reduce AI preference for repeated accuracy/evasion moves where appropriate
+  - Consider resetting accuracy/evasion modifiers when switching
 
 ### Types
 
@@ -220,6 +226,25 @@ Potential items include:
 - Give appropriate late-game trainers more complete teams instead of relying on only 2–3 Pokémon
 - Preserve trainer themes and progression when adding Pokémon
 - Add stronger post-game rematches for major trainers
+- Review unused or underused Gen I trainer classes for new optional and post-game battles
+- Consider using the Cooltrainer♀ sprite for Daisy or importing an appropriate Gen II-style sprite
+- Add optional post-game battles for Daisy and the player's Mom
+- Review Gym Leader and Elite Four teams for fuller, more thematic rosters while preserving Gen I species
+- Consider giving Lorelei Articuno as part of her late-game Ice specialist team
+- Consider replacing the Champion's Pidgeot with Dragonite
+
+#### Professor Oak
+
+Restore the unused Professor Oak battle as an optional post-game superboss.
+
+Planned requirements and behaviour:
+
+- Unlock after entering the Hall of Fame and catching Mewtwo in Cerulean Cave
+- Give Professor Oak a full team of six at approximately levels 80–88
+- Allow the player to check the Pokédex or challenge Oak
+- Make the battle repeatable after the first victory
+- Use an appropriate Champion/post-game battle theme
+- Determine Oak's final team later; the starter-dependent final slot remains under consideration
 
 #### Rival
 
@@ -234,13 +259,19 @@ Potential items include:
 - Running Shoes
 - Escape Rope key item
 - Exp. All becomes a Key Item that can be toggled on or off
-- Repurpose Exp. Share as a different item
+- Repurpose Exp. Share as the Pocket PC Key Item
+- Add a Poké Ball caught indicator in the Pokédex and appropriate wild encounter interfaces
+- Disable Poké Ball selection in trainer battles, or show a standard item-block message without consuming a ball
+- Consider importing Pokémon Crystal-style party icons
+- Consider importing an EXP bar graphic inspired by Pokémon Crystal
 
 #### Pokémon Center and PC Access
 
 - Restore the unused PC in the Celadon or Saffron hotel
 - Allow the PC in the player's bedroom to access Pokémon storage
-- Pocket PC
+- Pocket PC allows access to Pokémon storage from the Key Items menu
+- Automatically switch to the next available PC box when the current box is full
+- Allow caught or received Pokémon to be deposited without requiring the player to manually change boxes first
 
 ### Future Bug Fixes
 
@@ -251,6 +282,8 @@ may provide an intentional alternative through normal gameplay.
 #### Game Mechanics
 
 - Additional battle mechanics will be reviewed and modernized where appropriate.
+- Fix Slot Machine odds/behaviour where the original implementation is incorrect or misleading
+- Fix the Infinite Fly glitch
 - Review the maximum number of Game Corner coins that can be purchased at once
 - Consider allowing Game Corner prize/shop interactions to award or exchange coins or money where appropriate
 - Limit TMs to one obtainable copy each, since TMs are reusable
@@ -267,6 +300,16 @@ may provide an intentional alternative through normal gameplay.
 - Ensure the Pokémon previously obtainable through useful encounter glitches remain obtainable through normal gameplay
 - Where appropriate, make those Pokémon easier to obtain intentionally
 
+##### Cycling Road
+
+- Fix the Cycling Road bike-check bug that allows the player to bypass the Bicycle requirement
+- Require the Bicycle to enter and use Cycling Road normally
+
+##### Travel and Healing
+
+- Register a city's Fly destination when the player first enters the city rather than requiring entry into the Pokémon Center
+- Update the player's healing/respawn location when entering a city rather than requiring entry into the Pokémon Center
+
 #### Trainer Tips and Game Scripts
 
 - Review all Trainer Tips signs for mechanics that have changed in Soul Yellow
@@ -274,6 +317,22 @@ may provide an intentional alternative through normal gameplay.
 - Update references to changed systems such as TMs, HMs, Exp. All, type interactions, and the Safari Zone
 - Preserve original dialogue where it remains accurate
 - Add or repurpose tutorial text where useful for new mechanics
+- Review scripts affected by new post-game battles, storage behaviour, travel changes, and the Wild Sanctuary
+
+### Optional Flavor Text
+
+Consider adding occasional Gen I-style humorous messages without slowing down normal play.
+
+Potential locations include:
+
+- Saving the game
+- PC storage access
+- Teleport, Escape Rope, Dig, and similar transitions
+- Pokémon Center healing
+- Post-game battle facilities or special encounters
+
+Keep messages short and rotate them where practical. Possible themes include Porygon handling save data,
+Bill's PC behaving strangely, Pokémon helping organize storage, and MissingNo. references.
 
 ### Future Partner Pikachu Mechanics
 
@@ -308,14 +367,6 @@ Planned changes:
 - Allow the Soul Yellow companion website to link directly to the Team Builder
   with Soul Yellow preselected
 
-### Safari Zone
-
-- Allow normal Pokémon battles in the Safari Zone
-- Remove the bait and rock mechanics
-- Remove the fleeing mechanic entirely
-- Allow Pokémon to be weakened or affected by status normally before capture
-- Keep rare Safari Zone Pokémon rare through encounter rates rather than additional flee mechanics
-
 ### New Events
 
 #### Cinnabar Island Fossil
@@ -349,3 +400,49 @@ Planned changes:
 - All normally obtained Magikarp would continue to evolve into standard Gyarados
 - Provides a Gen I Pokémon with Dark-type STAB without adding later-generation Pokémon to the roster
 - Add a smug Pikachu reaction after purchasing the special Magikarp.
+
+### Wild Sanctuary
+
+- Rename the Safari Zone to the Wild Sanctuary
+- Update Fuchsia City dialogue, signs, and map text for the new name
+
+#### Encounters and Capture
+
+- Allow normal Pokémon battles
+- Remove bait and rock mechanics
+- Remove the fleeing mechanic entirely
+- Allow Pokémon to be weakened or affected by status normally before capture
+- Keep rare Sanctuary Pokémon rare through encounter rates rather than additional flee mechanics
+- Consider making Safari Balls function as a specialized capture ball, potentially with a stronger first-turn catch bonus
+- Ensure the player can obtain additional Safari Balls if the Sanctuary still relies on them
+- Consider level scaling Sanctuary encounters within a limited range around the player's lead Pokémon
+
+#### Lore
+
+- Connect the Sanctuary's lore to Mr. Fuji and Pokémon rehabilitation
+- Frame Sanctuary Pokémon as rehabilitated Pokémon that are ready for new trainers but still expect the player to prove themselves in battle
+- Add a Trainer Tips sign explaining that the Safari Zone was renamed the Wild Sanctuary in honour of Mr. Fuji and his work caring for Pokémon
+- Update Mr. Fuji's post-Pokémon Tower dialogue to foreshadow or explain the Sanctuary project
+- Consider connecting Silph Co. researchers to the Sanctuary
+- Update the Silph Co. Lapras scientist's follow-up dialogue to hint at the Sanctuary and its EXP-related research
+- Consider adding EXP-related items to a Sanctuary research shop
+
+## Concepts Under Consideration
+
+These concepts may be explored in the future but are not currently part of the planned implementation.
+
+### Battle Sprite Refresh
+
+- Consider replacing the original battle sprites with rescaled modern-style sprites
+- Soul Yellow still contains only the original 151 Pokémon
+- Use only the Gen I Pokémon assets from the larger sprite collection
+- Verify each sprite against Game Boy size, palette, tile, and VRAM limitations before adopting it
+
+### Music Updates
+
+- Consider adding unique or alternate music for selected new and post-game content
+- Prefer reusing or adapting existing Pokémon Yellow and Gold/Silver/Crystal music rather than composing an entirely new soundtrack
+- Consider alternate battle music for Gym Leader rematches
+- Consider unique battle music for Professor Oak's optional post-game battle
+- Consider unique music for the Wild Sanctuary
+- Consider alternate music for other special post-game battles, areas, or events where appropriate
