@@ -54,14 +54,6 @@ Soul Yellow companion site.
 
 - Power Plant Voltorb encounter replaced with Raichu
 
-## Trainer and Boss Changes
-
-### Rival
-...
-
-### Elite Four
-...
-
 ## Quality of Life
 
 - Running Shoes
@@ -84,26 +76,19 @@ Soul Yellow generally prefers:
 
 ## Bug Fixes
 
-Soul Yellow fixes bugs and unintended behaviour from the original game,
-including glitches that could previously be exploited by the player.
-
-Where a glitch provided a useful quality-of-life function, Soul Yellow may
-provide an intentional alternative through normal gameplay.
-
 ### Battle
 
 - Psychic/Ghost type interaction corrected
-- ...
-
-### Overworld
-
-- ...
 
 ## Shop Updates
 
 Shop item changes will be mentioned here when implemented.
 
 ## Planned / Under Consideration
+
+### Future Battle Mechanics
+
+- Additional battle mechanics will be reviewed and modernized where appropriate.
 
 ### Types
 
@@ -167,3 +152,27 @@ Potential items:
 - Ether / Max Ether
 - Elixir / Max Elixir
 - PP Up
+
+### Trainer and Boss Changes
+
+#### Rival
+
+- TBD
+
+#### Elite Four
+
+- TBD
+
+### Future Bug Fixes
+
+Soul Yellow will fix bugs and unintended behaviour from the original game.
+Where a glitch previously provided a useful quality-of-life function, Soul Yellow
+may provide an intentional alternative through normal gameplay.
+
+#### Battle (Future)
+
+- Additional battle bugs will be reviewed and fixed where appropriate.
+
+#### Overworld
+
+- Overworld bugs and unintended behaviour will be reviewed and fixed where appropriate.
