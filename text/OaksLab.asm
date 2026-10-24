@@ -50,7 +50,7 @@ _OaksLabOak1YouShouldTalkToIt::
 _OaksLabOak1DeliverParcelText::
 	text "OAK: Oh, <PLAYER>!"
 
-	para "How is my old"
+	para "How is your"
 	line "#MON?"
 
 	para "Well, it seems to"

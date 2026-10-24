@@ -39,6 +39,29 @@ Pokémon Soul Yellow is a personal enhancement project based on pret/pokeyellow.
 - Increased stats
 - Changes apply only to the partner Pikachu
 
+### Evolution Changes
+
+These Pokémon evolve by leveling up at level 36 instead of trading:
+
+| Pokémon | Evolves Into |
+|---|---|
+| Kadabra | Alakazam |
+| Machoke | Machamp |
+| Graveler | Golem |
+| Haunter | Gengar |
+
+### In-Game Trades
+
+| Give | Receive |
+|---|---|
+| Lickitung | Chansey |
+| Clefairy | Mr. Mime |
+| Kangaskhan | Eevee |
+| Tangela | Scyther |
+| Golduck | Dratini |
+| Growlithe | Pinsir |
+| Cubone | Tauros |
+
 ### Movesets
 
 Detailed Pokémon learnsets and Move Relearner options will be documented
@@ -48,6 +71,32 @@ on the Soul Yellow companion site.
 
 Detailed wild Pokémon encounter tables will be documented on the
 Soul Yellow companion site.
+
+### Encounter Changes from Pokémon Yellow
+
+The following encounters differ from the original Pokémon Yellow.
+Repeated entries indicate separate encounter slots.
+
+| Location | Pokémon and Levels |
+|---|---|
+| Viridian Forest | Weedle Lv. 4 (two slots); Kakuna Lv. 6 |
+| Route 4 | Ekans Lv. 9, 11 |
+| Route 5 | Meowth Lv. 16 |
+| Route 6 | Meowth Lv. 16 |
+| Route 7 | Meowth Lv. 22 |
+| Route 8 | Ekans Lv. 22; Meowth Lv. 20 |
+| Route 9 | Ekans Lv. 18 |
+| Route 10 | Ekans Lv. 18 |
+| Route 11 | Ekans Lv. 17 |
+| Route 21 | Tentacool Lv. 25, 27, 29; Poliwhirl Lv. 28, 30; Tentacruel Lv. 30, 32, 38; Slowbro Lv. 32; Gyarados Lv. 35; Tangela (levels to be documented) |
+| Route 23 | Arbok Lv. 41 |
+| Route 25 | Kakuna Lv. 15 |
+| Pokémon Mansion 1F | Koffing Lv. 37 |
+| Pokémon Mansion 2F | Koffing Lv. 40; Weezing Lv. 40 |
+| Pokémon Mansion 3F | Koffing Lv. 43; Weezing Lv. 43; Magmar Lv. 34 |
+| Pokémon Mansion B1F | Koffing Lv. 43; Weezing Lv. 46; Magmar Lv. 38 |
+| Seafoam Islands B2F | Jynx Lv. 37 |
+| Seafoam Islands B4F | Jynx Lv. 39 |
 
 ## Design Notes
 
@@ -151,6 +200,7 @@ for implementation.
 |---|---|
 | Dual Wingbeat | Could use existing two-hit move mechanics; thematic fit for Flying Pokémon |
 | Magnet Rise | Potential utility move; implementation and usefulness still need to be evaluated |
+| Nuzzle | Electric-type move with 20 power and 100 accuracy; reuse Lick's damaging paralysis effect with a guaranteed paralysis chance after a successful damaging hit, subject to immunity and status restrictions | Adds a low-power attack with reliable paralysis alongside the Dark, Steel, and Fairy move additions |
 
 ### Dark, Steel, and Fairy Addition
 
@@ -195,7 +245,7 @@ Planned substitutions include:
 
 ### Celadon Shop
 
-- Add Moon Stones and Link Cables to the evolution-stone vendor
+- Add Moon Stones to the evolution-stone vendor
 - Replace Counter TM with Drain Punch
 
 ### Pokémon League Shop
@@ -356,7 +406,8 @@ Planned changes:
 
 #### Trade Evolutions
 
-- Replace trade evolution requirements with the Link Cable item
+- Kadabra, Machoke, Graveler, and Haunter evolve at level 36 instead of requiring a trade.
+- Link Cable items are deferred and may be reconsidered after all other planned changes have been implemented and tested.
 - Ensure all 151 Pokémon can be obtained without trading
 
 ### Companion Tools

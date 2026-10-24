@@ -116,7 +116,6 @@ TryingToLearn:
 	call CopyData
 	callfar FormatMovesString
 	pop hl
-.loop
 	push hl
 	ld hl, WhichMoveToForgetText
 	call PrintText
@@ -156,28 +155,14 @@ TryingToLearn:
 	pop hl
 	bit B_PAD_B, a
 	jr nz, .cancel
-	push hl
+	; Any move, including an HM move, can be replaced.
 	ld a, [wCurrentMenuItem]
 	ld c, a
 	ld b, 0
 	add hl, bc
 	ld a, [hl]
-	push af
-	push bc
-	call IsMoveHM
-	pop bc
-	pop de
-	ld a, d
-	jr c, .hm
-	pop hl
-	add hl, bc
 	and a
 	ret
-.hm
-	ld hl, HMCantDeleteText
-	call PrintText
-	pop hl
-	jr .loop
 .cancel
 	scf
 	ret
