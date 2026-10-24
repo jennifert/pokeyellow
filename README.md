@@ -21,6 +21,7 @@ Detailed test results are tracked in [the playthrough testing issue](https://git
 - [ ] Address bugs and balance findings from the playthrough, then verify the fixes
 - [ ] Add a Poké Ball caught indicator in the Pokédex and appropriate wild encounter interfaces
 - [ ] Add a battle EXP progress bar inspired by Pokémon Crystal
+- [ ] Remove overworld poison and burn damage and fainting; keep poison and burn damage during battle
 
 Other planned features remain listed under **Planned / Under Consideration** below.
 
