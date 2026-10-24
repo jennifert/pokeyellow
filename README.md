@@ -122,6 +122,11 @@ Soul Yellow generally prefers:
 
 ## Bug Fixes
 
+If you find a new glitch or an original-game glitch that has been missed,
+please [open a GitHub issue](https://github.com/jennifert/pokeyellow/issues/new).
+Include steps to reproduce it, what you expected, what happened, and the
+build or commit you tested. Screenshots or a save file are helpful when available.
+
 ### Battle
 
 - Psychic/Ghost type interaction corrected
@@ -190,12 +195,15 @@ battle mechanics to keep their implementation compatible with the original engin
 | Dragon Breath | Replaces Dragon Rage | Replaces a fixed-damage move with a more useful Dragon-type attack |
 | Metal Claw | Replaces SonicBoom | Adds a Steel-type attack while removing a fixed-damage move |
 
+Planned — TM12: Replace Water Gun with Water Pulse when Water Pulse is implemented. Review TM compatibility and early-game balance.
+
 #### Removed / Replaced Moves
 
 Moves that may be removed entirely or have their move slots reused.
 
 | Move | Planned Change | Reason |
 |---|---|---|
+| Bide | Replace with another move; replacement TBD | Provide a more useful move option |
 | Explosion | TBD | Review self-KO moves |
 | Selfdestruct | TBD | Review self-KO moves |
 | Fissure | TBD | Review one-hit KO moves |
@@ -345,6 +353,7 @@ may provide an intentional alternative through normal gameplay.
 - Additional battle mechanics will be reviewed and modernized where appropriate.
 - Fix Slot Machine odds/behaviour where the original implementation is incorrect or misleading
 - Fix the Infinite Fly glitch
+- Fix the long-range Trainer glitch (Trainer-Fly glitch)
 - Review the maximum number of Game Corner coins that can be purchased at once
 - Consider allowing Game Corner prize/shop interactions to award or exchange coins or money where appropriate
 - Limit TMs to one obtainable copy each, since TMs are reusable
