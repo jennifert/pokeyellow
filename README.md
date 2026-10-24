@@ -19,25 +19,23 @@ Pokémon Soul Yellow is a personal enhancement project based on pret/pokeyellow.
 - Uses updated type interactions where applicable
 - Psychic/Ghost interaction corrected
 
-### Experience
+### Experience (planned / not yet implemented)
 
 - Pokémon gain EXP when caught
 
 ### TMs and HMs
 
 - TMs are reusable
-- HM moves can be deleted
-- Field moves do not require the Pokémon to currently know the move,
-  provided it is capable of learning it
+- HM moves can be overwritten when learning another move
+- Planned: Allow compatible Pokémon to use field moves without needing to know the move
 
 ## Pokémon Changes
 
 ### Partner Pikachu
 
-- Cannot evolve
-- Surf is added to Partner Pikachu's learnset, allowing access to the Surfing Pikachu minigame without Pokémon Stadium
-- Increased stats
-- Changes apply only to the partner Pikachu
+- Partner Pikachu cannot evolve
+- Pikachu has increased base stats and starts with Tackle
+- Pikachu can learn HM03 Surf, enabling access to the Surfing Pikachu minigame without Pokémon Stadium
 
 ### Evolution Changes
 
