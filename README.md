@@ -12,6 +12,18 @@ Pokémon Soul Yellow is a personal enhancement project based on pret/pokeyellow.
 - Incorporate selected mechanics and moves from later generations where
   they fit naturally into Pokémon Yellow
 
+## Running Task List
+
+Current priorities, in order. Update this list as work is completed or priorities change.
+Detailed test results are tracked in [the playthrough testing issue](https://github.com/jennifert/pokeyellow/issues/1).
+
+- [ ] Complete the current integration playthrough to Indigo Plateau
+- [ ] Address bugs and balance findings from the playthrough, then verify the fixes
+- [ ] Add a Poké Ball caught indicator in the Pokédex and appropriate wild encounter interfaces
+- [ ] Add a battle EXP progress bar inspired by Pokémon Crystal
+
+Other planned features remain listed under **Planned / Under Consideration** below.
+
 ## Battle Mechanics
 
 ### Type Chart
@@ -311,7 +323,7 @@ Planned requirements and behaviour:
 - Add a Poké Ball caught indicator in the Pokédex and appropriate wild encounter interfaces
 - Disable Poké Ball selection in trainer battles, or show a standard item-block message without consuming a ball
 - Consider importing Pokémon Crystal-style party icons
-- Consider importing an EXP bar graphic inspired by Pokémon Crystal
+- Add a battle EXP progress bar inspired by Pokémon Crystal
 
 #### Pokémon Center and PC Access
 
